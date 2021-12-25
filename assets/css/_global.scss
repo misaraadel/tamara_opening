@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "ExpoArabic";
+    src: url(../fonts/ExpoArabic/ExpoArabic-Medium.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "ExpoArabic";
+    src: url(../fonts/ExpoArabic/ExpoArabic-Book.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "ExpoArabic";
+    src: url(../fonts/ExpoArabic/ExpoArabic-SemiBold.ttf);
+    font-weight: 900;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "ExpoArabic" , sans-serif ;
+    scroll-behavior: smooth;
+
+    &::selection{
+        background-color: #f59f2a;
+        color: #fff; 
+    }
+    
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #ccc;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #f59f2a; 
+        border-radius: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #f59f2a; 
+    }
+}
